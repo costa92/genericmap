@@ -1,7 +1,7 @@
 # GenericMap
 
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.25-blue.svg)](https://golang.org/)
-[![Test Coverage](https://img.shields.io/badge/coverage-98.5%25-brightgreen.svg)](./MAKEFILE.md)
+[![Test Coverage](https://img.shields.io/badge/coverage-98.5%25-brightgreen.svg)](./docs/MAKEFILE.md)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/costa92/genericmap)](https://goreportcard.com/report/github.com/costa92/genericmap)
 
@@ -335,9 +335,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📚 Documentation
 
-- [English Make Commands](./MAKEFILE.md)
-- [中文 Make 命令文档](./MAKEFILE_CN.md)
-- [Go Package Documentation](https://pkg.go.dev/github.com/costa92/genericmap)
+- [📖 Documentation Center](./docs/index.md)
+- [🇨🇳 中文文档](./docs/README_CN.md)
+- [🔧 Make Commands (English)](./docs/MAKEFILE.md)
+- [🔧 Make Commands (中文)](./docs/MAKEFILE_CN.md)
+- [📚 Go Package Documentation](https://pkg.go.dev/github.com/costa92/genericmap)
 
 ## 🔗 Links
 
