@@ -113,6 +113,8 @@ func ExampleMap_stringType() {
 	m.Set("user3", "alice@example.com")
 
 	emails := m.GetKeys("alice@example.com")
+	// Sort to ensure consistent output order
+	sort.Strings(emails)
 	fmt.Printf("Users with email alice@example.com: %v\n", emails)
 
 	// Output:
@@ -132,6 +134,8 @@ func ExampleMap_userGroupMapping() {
 
 	// Find all users in admins group
 	adminUsers := userGroups.GetKeys("admins")
+	// Sort to ensure consistent output order
+	sort.Ints(adminUsers)
 	fmt.Printf("Admin user IDs: %v\n", adminUsers)
 
 	// Count users in each group
