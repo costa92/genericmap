@@ -13,7 +13,7 @@
 //
 // Basic Usage:
 //
-//	import "your-project/pkg/genericmap"
+//	import "github.com/costa92/genericmap"
 //
 //	// Create empty map
 //	m := genericmap.New[string, int]()
