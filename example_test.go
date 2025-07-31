@@ -65,7 +65,7 @@ func ExampleMap_initialData() {
 	fmt.Printf("Initial data loaded: %d items\n", m.Len())
 	keys := m.GetKeys(5)
 	fmt.Printf("Has value 5 with %d keys\n", len(keys))
-	
+
 	// Output:
 	// Initial data loaded: 3 items
 	// Has value 5 with 2 keys
@@ -123,7 +123,7 @@ func ExampleMap_stringType() {
 func ExampleMap_userGroupMapping() {
 	// Map user IDs to group names
 	userGroups := New[int, string]()
-	
+
 	userGroups.Set(1001, "admins")
 	userGroups.Set(1002, "users")
 	userGroups.Set(1003, "moderators")
@@ -136,7 +136,7 @@ func ExampleMap_userGroupMapping() {
 
 	// Count users in each group
 	fmt.Printf("Total groups: %d\n", len(userGroups.Values()))
-	
+
 	// Count unique groups properly
 	uniqueGroups := make(map[string]bool)
 	for _, group := range userGroups.Values() {

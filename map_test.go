@@ -193,7 +193,7 @@ func Example() {
 	initial := map[string]int{"apple": 5, "banana": 2, "cherry": 5}
 	m = New[string, int](initial)
 	fmt.Printf("Initialized map length: %d\n", m.Len())
-	
+
 	// Sort keys for consistent output
 	keys := m.GetKeys(5)
 	sort.Strings(keys)

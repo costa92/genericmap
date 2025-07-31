@@ -16,15 +16,15 @@ type Map[K comparable, V comparable] struct {
 }
 
 // New creates a new generic map with optional initial data.
-// 
+//
 // Examples:
-// 
-//  // Create empty map
-//  m := New[string, int]()
-//  
-//  // Create with initial data
-//  initial := map[string]int{"a": 1, "b": 2}
-//  m := New[string, int](initial)
+//
+//	// Create empty map
+//	m := New[string, int]()
+//
+//	// Create with initial data
+//	initial := map[string]int{"a": 1, "b": 2}
+//	m := New[string, int](initial)
 func New[K comparable, V comparable](initialData ...map[K]V) *Map[K, V] {
 	m := &Map[K, V]{
 		data:       make(map[K]V),
