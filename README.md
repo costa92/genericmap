@@ -1,6 +1,6 @@
 # GenericMap
 
-[![Go Version](https://img.shields.io/badge/go-%3E%3D1.25-blue.svg)](https://golang.org/)
+[![Go Version](https://img.shields.io/badge/go-%3E%3D1.20-blue.svg)](https://golang.org/)
 [![Test Coverage](https://img.shields.io/badge/coverage-98.5%25-brightgreen.svg)](./docs/MAKEFILE.md)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/costa92/genericmap)](https://goreportcard.com/report/github.com/costa92/genericmap)
